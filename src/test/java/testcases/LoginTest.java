@@ -28,6 +28,7 @@ public class LoginTest {
 		driver.findElement(By.xpath("//button[text()=' Login ']")).click();
 		Assert.assertEquals(driver.getCurrentUrl(),"https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index");
 		System.out.println("Login test passed");//From Local Repository
+		System.out.println("Practicing the merge conflict");//From Local Repository
 
 		driver.close();
 	
