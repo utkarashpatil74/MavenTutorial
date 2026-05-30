@@ -27,8 +27,8 @@ public class LoginTest {
 		driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("admin123");
 		driver.findElement(By.xpath("//button[text()=' Login ']")).click();
 		Assert.assertEquals(driver.getCurrentUrl(),"https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index");
-		System.out.println("My name is utkarsh");
-		
+		System.out.println("Login test passed");//From Local Repository
+
 		driver.close();
 	
 	}
